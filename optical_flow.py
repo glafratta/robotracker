@@ -45,7 +45,7 @@ p0 = cv.goodFeaturesToTrack(old_gray, mask = None, **feature_params)
 # Create a mask image for drawing purposes
 mask = np.zeros_like(old_frame)
 
-f = open(args.image+"_coord.txt","a")
+f = open(args.image+"_coord.txt","w")
 
 framenumber = 0
 
