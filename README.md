@@ -5,7 +5,7 @@
 Run with for example:
 
 ```
-python optical_flow.py vids/culdesacA2
+python robotracker.py vids/culdesacA2
 ```
 
 Press Esc to stop the tracking.

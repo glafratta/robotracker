@@ -51,11 +51,10 @@ framenumber = 0
 
 while(1):
     ret, frame = cap.read()
-    frame = doCrop(frame)
     if not ret:
-        print('No frames grabbed!')
         break
 
+    frame = doCrop(frame)
     frame_gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
 
     # calculate optical flow
