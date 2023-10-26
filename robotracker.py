@@ -7,8 +7,8 @@ import argparse
 import csv
 
 minY = 0
-minX = 610
-width = 755
+minX = 500
+width = 755#755
 height = 917
 
 def doCrop(img):
